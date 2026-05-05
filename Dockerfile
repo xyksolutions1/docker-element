@@ -1,7 +1,7 @@
 ARG DISTRO=alpine
 ARG DISTRO_VARIANT=3.20
 
-FROM docker.io/tiredofit/unit:${DISTRO}-${DISTRO_VARIANT}
+FROM docker.io/xyksolutions1/docker-unit:main
 LABEL maintainer="Dave Conroy (github.com/tiredofit)"
 
 ARG ELEMENT_VERSION
